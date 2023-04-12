@@ -1,0 +1,7 @@
+PATTERN_PREFIX = "[^",
+ANSWER_SET_FILE_NAME = "./dictionaries/words_freq_dict_five.json",
+PROMPT_INITIAL_TRY = "Enter known letters, with unknowns marked with '_':\n\nHint: ",
+PROMPT = "Enter new known letters, with unknowns marked with '_'\n\nHint: ",
+WRONG_INPUT_WARNING = "WARNING: Hint only can be five(5) characters (no numbers or punctuation)\n",
+SUGGESTIONS_HEADER = "All Potential Words\n\nWord || Commonness of Word (DESC)\n",
+PLAY_AGAIN_PROMPT = "Did you guess correctly?(y/n): "
